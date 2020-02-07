@@ -1,0 +1,174 @@
+.jumbotron {
+    background-image: url(https://www.mural-wallpaper.com/wp-content/uploads/2019/04/N17-california-sunset-palm-trees-wallpaper-mural.jpg);
+    padding: 10rem
+}
+
+.container {
+    background-color: ;
+}
+
+.animated {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem
+}
+
+
+.topnav {
+    background-color: transparent
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color:transparent;
+    color:lightgray;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color:transparent;
+    color: white;
+    float: left;
+  }
+
+#first {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+#photo {
+    background-color: lightgray
+}
+
+#photo h1 {
+    font-size: 35px;
+}
+
+#photo p {
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+
+#photo img {
+    border-radius: 5px;
+    max-width: 100%;
+    padding-bottom: 1rem;
+}
+
+#quotes h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.9rem;
+    text-align: left;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+}
+
+#quotes {
+    padding-bottom: 6rem;
+}
+
+#sky {
+    background-image: url(https://ctl.s6img.com/society6/img/fSLCINkbksbdLR_Q1N69xVtF2es/w_1500/coffee-mugs/swatch/~artwork,fw_4600,fh_2000,fy_-533,iw_4600,ih_3066/s6-original-art-uploads/society6/uploads/misc/27576cbd81af434c90e9469203e19514/~~/cloudy-night-sky-mugs.jpg);
+    padding: 4rem;
+    color: white;
+}
+
+#sky h5 {
+    font-size: 15px;
+    padding-bottom: 1rem;
+}
+
+#sky h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#sky p {
+    color: tomato;
+}
+
+
+
+body {
+    padding-top: 20px;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+
+#foot {
+    background-color: darkslategray;
+}
+
+#foot p {
+    color: white;
+    padding-top: 5px;
+}
+
+#foot div {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#bottom {
+    background-color: darkslategray;
+}
+
+#bottom li {
+    font-size: 0.75rem;
+    padding-bottom: 1rem;
+}
+
+
