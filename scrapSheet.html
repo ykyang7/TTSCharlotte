@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Json and Ajax</h2>
+
+<form action="action_page.php" method="post">
+  
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+  
+      <button id="submit">Login</button>
+
+    </div>
+</form>
+
+
+<script>
+//Make a GET request for the items to render
+$.get('https://jsonplaceholder.typicode.com/users', function(users){
+  //Iterate over the response, adding elements to DOM
+  users.forEach(function(user){
+    var li = $('<li></li>');
+    li.text(user.name);
+    list.append(li);
+  })
+})
+data
+
+</script>
+
+
+
+</body>
+</html>
